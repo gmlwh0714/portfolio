@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PORTFOLIO</title>
+  <style>
+    *{margin: 0; padding: 0; box-sizing: border-box;}
+    img{
+      width: 100%;
+      height: auto;
+      max-width: 1920px;
+      display: block;
+    }
+    iframe{
+      border: 2px solid #fff;
+      border-radius: 20px;
+    }
+    .p4_video2 iframe {
+       border: 2px solid #000;
+    }
+    .p4{
+      z-index: 1;
+      position: relative;
+    }
+    .p4_video1{
+      z-index: 2;
+      position: absolute;
+      top: 3200px; left: 150px;
+    }
+    .p4_video2{
+      z-index: 2;
+      position: absolute;
+      top: 7350px; left: 150px;
+    }
+  </style>
+</head>
+<body>
+  <div class="p1">
+    <img src="img/p1.jpg" alt="p1">
+    <a href="#"></a>
+  </div>
+  <div class="p2">
+    <img src="img/p2.jpg" alt="p2">  
+  </div>
+  <div class="p3">
+    <img src="img/p3.jpg" alt="p3">
+  </div>
+  <div class="p4">
+    <img src="img/p4.jpg" alt="p4">  
+    <div class="p4_video1">
+      <iframe width="1600" height="900" src="https://www.youtube.com/embed/GVsJ1mMcgoo?si=dukNFmAhg53rE87F" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+    <div class="p4_video2">
+      <iframe width="1600" height="900" src="https://www.youtube.com/embed/Dt9eli3_Bkg?si=D26KoOxXdvRe-EYc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+    <div class="p4_video3"></div>
+  </div>
+  <div class="p5">
+    <img src="img/p5.jpg" alt="p5">  
+  </div>
+</body>
+</html>
