@@ -12,49 +12,129 @@
       max-width: 1920px;
       display: block;
     }
+    .p2{
+      position: relative;
+    }
+    .p2 div {
+      position: absolute;
+      top: 4%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      z-index: 2;
+      width: 40%;
+      height: 1%;
+      /* border: 1px solid #fff; */
+      cursor: pointer;
+    }
+    .p2 div a {
+      display: block;
+      width: 100%;
+      height: 100%;
+    }
     iframe{
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
       border: 2px solid #fff;
       border-radius: 20px;
-    }
-    .p4_video2 iframe {
-       border: 2px solid #000;
     }
     .p4{
       z-index: 1;
       position: relative;
     }
-    .p4_video1{
-      z-index: 2;
+    .p4 .youtube1 {
       position: absolute;
-      top: 3200px; left: 150px;
+      top: 4.3%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      z-index: 2;
+      width: 50%;
+      height: 1%;
+      cursor: pointer;
     }
-    .p4_video2{
-      z-index: 2;
+    .p4 .youtube2 {
       position: absolute;
-      top: 7350px; left: 150px;
+      top: 37.5%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      z-index: 2;
+      width: 50%;
+      height: 1%;
+      cursor: pointer;
+    }
+    .p4 .youtube3 {
+      position: absolute;
+      top: 71%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      z-index: 2;
+      width: 50%;
+      height: 1%;
+      cursor: pointer;
+    }
+    .p4 a{
+      display: block;
+      width: 100%;
+      height: 100%;
+    }
+    .p4_video1,
+    .p4_video2,
+    .p4_video3 {
+      position: absolute;
+      left: 50%;
+      transform: translateX(-50%);
+      z-index: 2;
+      width: 100%;
+      max-width: 1600px;
+      aspect-ratio: 16 / 9;
+    }
+    .p4_video1 {
+      top: 25.5%;
+    }
+    .p4_video2 {
+      top: 58.8%;
+    }
+    .p4_video2 iframe{
+      border: 2px solid #000;
+    }
+    .p4_video3{
+      top: 92.3%;
     }
   </style>
 </head>
 <body>
   <div class="p1">
     <img src="img/p1.jpg" alt="p1">
-    <a href="#"></a>
   </div>
   <div class="p2">
-    <img src="img/p2.jpg" alt="p2">  
+    <img src="img/p2.jpg" alt="p2">
+    <div><a href="https://gmlwh0714.github.io/cocacola/" target="_blank"></a></div>
   </div>
   <div class="p3">
     <img src="img/p3.jpg" alt="p3">
   </div>
   <div class="p4">
-    <img src="img/p4.jpg" alt="p4">  
+    <img src="img/p4.jpg" alt="p4">
+    <div class="youtube1">
+      <a href="https://youtu.be/GVsJ1mMcgoo" target="_blank"></a>
+    </div>
     <div class="p4_video1">
-      <iframe width="1600" height="900" src="https://www.youtube.com/embed/GVsJ1mMcgoo?si=dukNFmAhg53rE87F" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      <iframe src="https://www.youtube.com/embed/GVsJ1mMcgoo?si=dukNFmAhg53rE87F" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+    <div class="youtube2">
+      <a href="https://youtu.be/Dt9eli3_Bkg" target="_blank"></a>
     </div>
     <div class="p4_video2">
-      <iframe width="1600" height="900" src="https://www.youtube.com/embed/Dt9eli3_Bkg?si=D26KoOxXdvRe-EYc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      <iframe src="https://www.youtube.com/embed/Dt9eli3_Bkg?si=D26KoOxXdvRe-EYc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
     </div>
-    <div class="p4_video3"></div>
+    <div class="youtube3">
+      <a href="https://youtu.be/_2UAe43ONKg" target="_blank"></a>
+    </div>
+    <div class="p4_video3">
+      <iframe src="https://www.youtube.com/embed/_2UAe43ONKg?si=c5nDchO068OeJpO1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
   </div>
   <div class="p5">
     <img src="img/p5.jpg" alt="p5">  
