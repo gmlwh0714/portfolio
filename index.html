@@ -13,7 +13,7 @@
     nav {
       position: fixed;
       bottom: 2vw;
-      right: 1.5vw;
+      right: 2vw;
       z-index: 999;
       display: flex;
       flex-direction: row;
@@ -29,7 +29,7 @@
       text-align: center;
       color: #000;
       cursor: pointer;
-      opacity: 0.5;
+      opacity: 0.7;
       transition: opacity 0.3s ease;
       text-shadow: 0 0 5px rgba(255, 255, 255, 0.9), 
       0 0 10px rgba(255, 255, 255, 0.6);
@@ -58,7 +58,9 @@
       /* border: 1px solid #fff; */
       cursor: pointer;
     }
-    .p2 div a {
+    .p2 div a,
+    .p4 div a,
+    .p5 div a {
       display: block;
       width: 100%;
       height: 100%;
@@ -116,11 +118,7 @@
       height: 1%;
       cursor: pointer;
     }
-    .p4 a{
-      display: block;
-      width: 100%;
-      height: 100%;
-    }
+    
     .p4_video1,
     .p4_video2,
     .p4_video3 {
@@ -141,6 +139,20 @@
  
     .p4_video3{
       top: 95.9%;
+    }
+
+    .p5{
+      position: relative;
+    }
+    .p5 .archi {
+      position: absolute;
+      bottom: 0.2%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      z-index: 999;
+      width: 60%;
+      height: 2%;
+      cursor: pointer;
     }
   </style>
 </head>
@@ -186,6 +198,9 @@
   </div>
   <div class="p5" id="p5">
     <img src="img/p5.jpg" alt="p5">  
+    <div class="archi">
+      <a href="https://gmlwh0714.github.io/archi/" target="_blank"></a>
+    </div>
   </div>
   <script>
     function scrollToSection(id) {
